@@ -477,8 +477,9 @@ section[contenteditable="true"] {
     }
 
     .hero-img img {
+        object-fit: contain;
         height: 350px;
-        width: 80%;
+        width: 100%;
     }
 
     .about-container {
@@ -514,7 +515,7 @@ section[contenteditable="true"] {
     }
 
     .hero-img img {
-        height: 250px;
+        height: 300px;
     }
 
     .btn {
@@ -531,4 +532,5 @@ section[contenteditable="true"] {
         height: 100px;
     }
 }
+
 
